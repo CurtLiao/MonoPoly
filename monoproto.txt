@@ -1,0 +1,29 @@
+syntax = "proto3"
+
+package "Mono"
+
+message AddMap{
+    int32 mapid;
+    int32 mapcost;
+    int32 mapowner;
+}
+message AddPlayer{
+    int32 playerid;
+    int32 money;
+}
+message ShowPlayer{
+
+
+}
+message ShowMap{
+
+
+}
+message RowDie{
+
+}
+message Buy{
+    int32 mapplace;
+    int32 mapcost;
+    int32 mapowner;
+}
